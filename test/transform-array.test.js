@@ -39,7 +39,7 @@ describe('Transform array', () => {
                 () => transform({ 'foo': 'bar' })
             ], '\'arr\' parameter must be an instance of the Array!');
 
-            assert.strictEqual(res.every($ => $ === CORRECT_RESULT_MSG), true);
+            assert. strictEqual(res.every($ => $ === CORRECT_RESULT_MSG), true);
         });
 
         it.optional('doesn\'t affect simple arrays', () => {
